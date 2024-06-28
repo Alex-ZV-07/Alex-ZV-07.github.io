@@ -1,0 +1,138 @@
+body {
+    background-color: #71C147;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31662C;
+    padding: 10px 20px;
+    color: white;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+}
+
+#tittle4head {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#botonesInicio {
+    background-color: #31662C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#botonesInicio:hover {
+    background-color: #71C147;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer img {
+    height: 60px;
+    width: 60px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #31662C;
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #31662C;
+}
+
+a {
+    color: #71C147;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+form {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"],
+form input[type="reset"],
+form input[type="button"] {
+    background-color: #31662C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover,
+form input[type="button"]:hover {
+    background-color: #71C147;
+}
